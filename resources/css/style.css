@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+}
+
+div {
+  display: block;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav span {
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.lead-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  justify-content: center;
+  background-image: url(../img/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-bottom: 80px;
+}
+
+.lead-img .mission {
+  display: block;
+  background-color: black;
+  width: 1200px;
+}
+
+.featured-text {
+  display: block;
+  margin-top: 100px;
+}
+
+.menu-text {
+  margin-bottom: 25px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.items img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.second .items {
+  margin: 25px;
+}
+
+.locations {
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(../img/img-locations-background.jpg);
+  height: 550px;
+  width: 1100px;
+  padding-top: 15px;
+}
+
+.locations-text {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 280px;
+  opacity: 1;
+  flex-direction: column;
+  background-color: black;
+  padding: 5px;
+  margin: 15px 20px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
